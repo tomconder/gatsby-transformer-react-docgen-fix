@@ -12,6 +12,9 @@ DatePicker.propTypes = {
 }
 
 DatePicker.defaultProps = {
+  /**
+   * Description of lastMonth
+   */
   lastMonth: new Date(),
 }
 
