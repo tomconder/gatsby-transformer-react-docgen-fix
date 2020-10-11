@@ -8,13 +8,13 @@ const DatePicker = ({ lastMonth }) => (
 )
 
 DatePicker.propTypes = {
+  /**
+   * Description of lastMonth
+   */
   lastMonth: PropTypes.instanceOf(Date),
 }
 
 DatePicker.defaultProps = {
-  /**
-   * Description of lastMonth
-   */
   lastMonth: new Date(),
 }
 
