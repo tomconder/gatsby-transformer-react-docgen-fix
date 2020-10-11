@@ -13,7 +13,15 @@ module.exports = {
         path: `${ __dirname }/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'conflicting-components',
+        path: `${ __dirname }/src/conflicting-components`,
+      },
+    },
     'gatsby-transformer-sharp',
+    'gatsby-transformer-react-docgen',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-manifest',

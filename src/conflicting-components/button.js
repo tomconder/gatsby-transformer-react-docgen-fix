@@ -7,7 +7,13 @@ const Button = ({ type, text }) => (
 )
 
 Button.propTypes = {
+  /**
+   * Description of type
+   */
   type: PropTypes.oneOf(['button', 'submit']),
+  /**
+   * Description of text
+   */
   text: PropTypes.string,
 }
 
